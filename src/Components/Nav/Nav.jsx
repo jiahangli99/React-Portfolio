@@ -1,19 +1,19 @@
 import React from 'react';
-// import logo from '../../logo/logo.png'
 import linkedInLogo from '../../logo/linkedin.png'
 import githubLogo from '../../logo/github.png'
 import logo from '../../logo/logo.png'
+import { Link } from "react-router-dom";
 import './Nav.css'
 
 export const Nav = () => {
   return (
     <div className='nav'>
       <div className='logo'>
-        <a className='top-a' href="/">
+      <Link className='top-a' to="/">
           <span className='name'>Jiahang</span>
           <span className='role'>Web Developer</span>
           <img className='profilepicture' src={logo} alt="" />
-        </a>
+        </Link>
       </div>
       <div className='middle'>
         <p className='about'>About</p>
