@@ -11,15 +11,15 @@ function main(props) {
                 <div className='text'>
                     <h1 className='nametext'>
                         <div>
-                            <span className='letter'>H</span>
-                            <span className='letter'>i</span>
+                            <span className='letterhi'>H</span>
+                            <span className='letterhi'>i</span>
                             <span className='letter'>,</span>
                         </div>
                         <div>
                             <span className='letter'>I</span>
                             <span className='letter'>'</span>
                             <span className='letter'>m&nbsp;</span>
-                            <span className='letter'>J</span>
+                            <span className='letterdif'>J</span>
                             <span className='letter'>i</span>
                             <span className='letter'>a</span>
                             <span className='letter'>h</span>
@@ -28,7 +28,7 @@ function main(props) {
                             <span className='letter'>g</span>
                         </div>
                     </h1>
-                    <p>Full Stack Developer</p>
+                    <p className='mainrole'>Full Stack Web Developer</p>
                     <a className='contact' href="/">
                         <span className='contacttext'> Contact Me</span>
                     </a>

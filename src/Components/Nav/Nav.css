@@ -1,5 +1,5 @@
 .nav {
-    background-color: tan;
+    background: linear-gradient(to top, rgb(226, 224, 221) 0%, tan 100%);
     width: 11rem;
     position: fixed;
     height: 100vh;

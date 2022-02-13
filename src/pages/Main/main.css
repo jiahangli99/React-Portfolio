@@ -44,7 +44,31 @@ p {
     font-size: 8.5rem;
     transform: translateY(-10px);
 }
-
+.letterdif {
+    color: black;
+    display: inline-block;
+    transition: 0.3s;
+}
+.letterdif:hover{
+    color: rgb(122, 95, 95);
+    font-size: 8.5rem;
+    transform: translateY(-10px);
+}
+.letterhi {
+    color: rgb(221, 176, 118);
+    display: inline-block;
+    transition: 0.3s;
+    
+}
+.letterhi:hover{
+    color: rgb(122, 95, 95);
+    font-size: 8.5rem;
+    transform: translateY(-10px);
+}
+.mainrole:hover {
+    color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+}
 .x {
     position: absolute;
     top: 10vh;

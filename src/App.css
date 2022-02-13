@@ -1,7 +1,7 @@
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    background: rgb(105, 95, 82);
+    background: linear-gradient(to left, rgb(145, 122, 93) 0%, rgb(71, 69, 65) 100%);
     display: block;
     min-width: 320px;
     color: #fff;
