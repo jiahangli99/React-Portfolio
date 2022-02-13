@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from '../../Components/Nav/Nav';
 import CodeIcon from '../../logo/code.png'
+import { Link } from "react-router-dom";
 import './main.css'
 
 function main(props) {
@@ -29,9 +30,9 @@ function main(props) {
                         </div>
                     </h1>
                     <p className='mainrole'>Full Stack Web Developer</p>
-                    <a className='contact' href="/">
+                    <Link className='contact' to ='/contact'>
                         <span className='contacttext'> Contact Me</span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="x">
                     <img className="y" src={CodeIcon} alt="codepen" />
