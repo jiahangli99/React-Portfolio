@@ -1,13 +1,9 @@
 import React from 'react';
-import { Nav } from '../../Components/Nav/Nav';
-import CodeIcon from '../../logo/code.png'
 import { Link } from "react-router-dom";
-import './main.css'
+import CodeIcon from '../../logo/code.png'
 
-function main(props) {
+function cover(props) {
     return (
-        <div>
-            <Nav />
             <section className='home'>
                 <div className='text'>
                     <h1 className='nametext'>
@@ -38,8 +34,7 @@ function main(props) {
                     <img className="y" src={CodeIcon} alt="codepen" />
                 </div>
             </section>
-        </div>
     );
 }
 
-export default main;
+export default cover;

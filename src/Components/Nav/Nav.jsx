@@ -16,11 +16,11 @@ export const Nav = () => {
         </Link>
       </div>
       <div className='middle'>
-        <p className='about'>About</p>
-        <p>Skills</p>
-        <p>Projects</p>
-        <p>Resume</p>
-        <p>Contact</p>
+        <Link className='links' to='/about'>About</Link>
+        <p className='links'>Skills</p>
+        <p className='links'>Projects</p>
+        <p className='links'>Resume</p>
+        <p className='links'>Contact</p>
       </div>
       <div className='socialMediaIcon'>
         <a href="https://www.linkedin.com/in/jiahang-li99/"><img className='linkedin' src={linkedInLogo} alt="Error" /></a>
