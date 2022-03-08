@@ -20,7 +20,7 @@ export const Nav = () => {
         <Link className='links' to='/skills'>Skills</Link>
         <p className='links'>Projects</p>
         <p className='links'>Resume</p>
-        <p className='links'>Contact</p>
+        <Link className='links' to='/contact'>Contact</Link>
       </div>
       <div className='socialMediaIcon'>
         <a href="https://www.linkedin.com/in/jiahang-li99/"><img className='linkedin' src={linkedInLogo} alt="Error" /></a>
