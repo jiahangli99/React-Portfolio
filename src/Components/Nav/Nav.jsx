@@ -18,7 +18,7 @@ export const Nav = () => {
       <div className='middle'>
         <Link className='links' to='/about'>About</Link>
         <Link className='links' to='/skills'>Skills</Link>
-        <p className='links'>Projects</p>
+        <Link className='links' to='/projects'>Projects</Link>
         <p className='links'>Resume</p>
         <Link className='links' to='/contact'>Contact</Link>
       </div>

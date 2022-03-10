@@ -4,6 +4,7 @@ import Cover from '../../pages/Cover/cover';
 import About from '../../pages/About/about';
 import Skills from '../../pages/Skills/skills';
 import Contact from '../../pages/Contact/contact';
+import Project from '../../pages/Projects/project';
 import './main.css'
 
 function main(props) {
@@ -27,6 +28,11 @@ function main(props) {
             <Switch>
                 <Route exact path='/contact'>
                     <Contact />
+                </Route>
+            </Switch>
+            <Switch>
+                <Route exact path='/projects'>
+                    <Project />
                 </Route>
             </Switch>
         </div>
