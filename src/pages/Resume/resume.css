@@ -1,0 +1,16 @@
+.resumeImg {
+    width: 50vw;
+    height: 99vh;
+}
+.download {
+    display: flex;
+    align-items: center;
+}
+.resumeDiv {
+    display: flex;
+    justify-content: center;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+}

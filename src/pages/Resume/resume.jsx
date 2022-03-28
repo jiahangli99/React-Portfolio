@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import jsPDF from 'jspdf';
 import ResumePdf from '../../logo/Resume.png'
+import './resume.css'
 class Resume extends Component {
     pdfGenerate=()=>{
         let doc=new jsPDF('landscape', 'px', 'b4', 'false');
@@ -10,7 +11,13 @@ class Resume extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.pdfGenerate}>Download Resume</button>
+                <div className='resume'>
+                <h1>Click To Download</h1>
+                </div>
+                <div className='resumeDiv'>
+                <button onClick={this.pdfGenerate}>
+                <img className='resumeImg' src={ResumePdf} alt="" /></button>
+                </div>
             </div>
         )
     }
