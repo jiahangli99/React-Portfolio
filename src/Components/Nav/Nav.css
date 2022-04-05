@@ -73,16 +73,24 @@ a {
 
 
 
-
-
-
-
-
-
 .middle {
     border-top: 1px solid #282828;
 }
 
 .socialMediaIcon {
     padding-bottom: 30px;
+}
+@media (max-width: 900px) {
+    .nav {
+        align-items: center;
+        position: fixed;
+        z-index: -5;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0s 0.4s, z-index 0s 0.7s;
+    }
 }
